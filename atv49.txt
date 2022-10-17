@@ -1,0 +1,9 @@
+
+
+Etapas para o desenvolvimento de um banco de dados
+
+O desenvolviento de um banco de dados é composto de três fases : primeira fase é projeto conceitual, onde cria-se um modelo de entidade - relacionamento, para ajudar a visualizar o banco de dados ele identifica cada entidade e suas relações na base de dados, o diagrama de entidade-relacionamento é simples o suficiente para permitir que os designers de banco de dados para aprender e compreender os conceitos básicos , porém detalhada o suficiente para ajudar no desenvolvimento de aplicações complexas .   
+
+A segunda fase é o  projeto Lógico que tem por objetivo transformar o projeto conceitual genérico em um modelo de dados específico para um sistema de gerenciamento de banco de dados específico . Projeto lógico pode ser feito manualmente ou - em alguns casos - automaticamente , através do uso de engenharia de software assistida por computador ( CASE) ferramentas a partir de um projeto conceitual. Em ambos os casos , o resultado final é um conjunto de comandos de linguagem de definição de dados , que pode ser usado de forma interativa, ou como parte de um programa de computador para criar o banco de dados.
+
+A terceira fase é o Projeto Físico, onde há a implementação física do modelo lógico de dados em um sistema de gerenciamento de banco de dados. Ele envolve a escolha de estruturas de arquivos específicos para armazenar tabelas de banco de dados , ou as relações , e garantir que as relações podem ser acessados ​​de forma rápida, eficiente e segura . Projetistas de banco de dados precisam pensar sobre os tempos de acesso de banco de dados para transações freqüentemente utilizados , bem como o número médio de transações processadas por minuto e a quantidade de espaço no banco de dados ocupa. Um índice em determinados campos ou colunas , em um banco de dados pode melhorar o tempo de acesso , mas cabe ao designer de banco de dados para decidir quais campos de índice.
